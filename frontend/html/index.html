@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KartMela</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/product.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="logo"><img src="images/favicon-32x32.png" alt="kartmela">
+                <h3>KartMela</h3>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Mens</a></li>
+                <li><a href="#">Womens</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Special</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+            <div class="material-icons" style="color: rgb(12, 12, 12);">local_mall</div>
+        </nav>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="text">
+                    <h1>Buy Best Products From <br /> All Of The World</h1>
+                    <p>Discover a wide range of top-quality products from trusted brands around the globe. Shop the
+                        latest
+                        trends in fashion, electronics, beauty, and more — all in one place, delivered to your doorstep.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn1">Products</button>
+                        <button class="btn2">Signup</button>
+                    </div>
+                </div>
+                <div class="tv-box">
+                    <img src="images/television.png" alt="vintage-tv">
+                    <p class="special-tag">Special Products ➜</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- newest products -->
+        <section class="product-section">
+            <div class="product-header">
+                <h2>Newest Products</h2>
+                <div class="product-filter">
+                    <span class="filter">All</span>
+                    <span class="arrow">←</span>
+                    <span class="arrow">→</span>
+                </div>
+            </div>
+            <div class="product-list">
+                <!-- loaded dynamically from JSON using js  -->
+            </div>
+        </section>
+    </div>
+</body>
