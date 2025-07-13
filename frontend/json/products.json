@@ -1,69 +1,86 @@
 {
-"products":[
-  {
-    "name": "Blazer",
-    "image": "blazer.png",
-    "price": 2999
-  },
-  {
-    "name": "Blue Chair",
-    "image": "bluechair.png",
-    "price": 1999
-  },
-  {
-    "name": "MacBook",
-    "image": "macbook.png",
-    "price": 99999
-  },
-  {
-    "name": "Power Bank",
-    "image": "powerbank.png",
-    "price": 1999
-  },
-  {
-    "name": "Rolex Watch",
-    "image": "rolexwatch.png",
-    "price": 120000
-  },
-  {
-    "name": "Sports Shoes",
-    "image": "shoes.png",
-    "price": 2499
-  },
-  {
-    "name": "Sunglasses",
-    "image": "sunglasses.png",
-    "price": 899
-  }
-],
-"All Products": [
-  {
-    "id": 7,
-    "name": "Sunglasses",
-    "description": "UV-protected stylish sunglasses",
-    "price": 899,
-    "imageUrl": "/img/sunglasses.png"
-  },
-  {
-    "id": 8,
-    "name": "Apple MacBook Pro",
-    "description": "16-inch, M1 Pro, 16GB RAM, 512GB SSD",
-    "price": 2399.99,
-    "imageUrl": "/img/macbook.png"
-  },
-  {
-    "id": 9,
-    "name": "Sony Lens 50mm",
-    "description": "Full-frame lens for Sony Alpha cameras",
-    "price": 499.99,
-    "imageUrl": "/img/sony-lens.png"
-  },
-  {
-    "id": 10,
-    "name": "Xiaomi Power Bank",
-    "description": "20,000mAh fast-charging USB-C power bank",
-    "price": 29.99,
-    "imageUrl": "/img/xiaomi-powerbank.png"
-  }
-]
+    "products": [
+        {
+            "name": "Blazer",
+            "image": "blazer.png",
+            "price": 2999
+        },
+        {
+            "name": "Blue Chair",
+            "image": "bluechair.png",
+            "price": 1999
+        },
+        {
+            "name": "MacBook",
+            "image": "macbook.png",
+            "price": 99999
+        },
+        {
+            "name": "Power Bank",
+            "image": "powerbank.png",
+            "price": 1999
+        },
+        {
+            "name": "Rolex Watch",
+            "image": "rolexwatch.png",
+            "price": 120000
+        },
+        {
+            "name": "Sports Shoes",
+            "image": "shoes.png",
+            "price": 2499
+        },
+        {
+            "name": "Sunglasses",
+            "image": "sunglasses.png",
+            "price": 899
+        }
+    ],
+    "All Products": [
+        {
+            "id": 7,
+            "name": "Sunglasses",
+            "description": "UV-protected stylish sunglasses",
+            "price": 899,
+            "imageUrl": "/img/sunglasses.png"
+        },
+        {
+            "id": 8,
+            "name": "Apple MacBook Pro",
+            "description": "16-inch, M1 Pro, 16GB RAM, 512GB SSD",
+            "price": 2399.99,
+            "imageUrl": "/img/macbook.png"
+        },
+        {
+            "id": 9,
+            "name": "Sony Lens 50mm",
+            "description": "Full-frame lens for Sony Alpha cameras",
+            "price": 499.99,
+            "imageUrl": "/img/sony-lens.png"
+        },
+        {
+            "id": 10,
+            "name": "Xiaomi Power Bank",
+            "description": "20,000mAh fast-charging USB-C power bank",
+            "price": 29.99,
+            "imageUrl": "/img/xiaomi-powerbank.png"
+        }
+    ],
+    "poster": [
+        {
+            "image": "/images/poster/womens-poster.png"
+        },
+        {
+            "image": "/images/poster/mens-poster.png"
+        },
+        {
+            "image": "/images/poster/kids-poster.png"
+        },
+        {
+            "image": "/images/poster/watch-poster.png"
+        },
+        {
+            "image": "/images/poster/sports-poster.png"
+        }
+    ]
 }
