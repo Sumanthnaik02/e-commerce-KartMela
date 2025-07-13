@@ -1,47 +1,30 @@
-[
-  {
-    "id": 1,
-    "name": "Blue Chair",
-    "price": "₹8,817.00",
-    "image": "images/bluechair.png"
-  },
-  {
-    "id": 2,
-    "name": "Sun Glasses",
-    "price": "₹3,415.00",
-    "image": "images/sunglasses.png"
-  },
-  {
-    "id": 3,
-    "name": "Xiaomi Powerbank",
-    "price": "₹2,199",
-    "image": "images/powerbank.png"
-  },
-  {
-    "id": 4,
-    "name": "SEA-DWELLER",
-    "price": "₹3,649",
-    "image": "images/rolexwatch.png"
-  },
-  {
-    "id": 5,
-    "name": "Mens's Blazer",
-    "price": "₹2,724",
-    "image": "images/blazer.png"
-  },
-  {
-    "id": 6,
-    "name": "Macbook Pro MLH42",
-    "price": "₹3,28,590",
-    "image": "images/macbook.png"
-  },
-  {
-    "id": 7,
-    "name": "Nike Men Running shoe",
-    "price": "₹3,264",
-    "image": "images/shoes.png"
-  }
-]
+//js/products.js
 
-// fetch and display
-fetch("pro")
+document.addEventListener("DOMContentLoaded", ()=>{
+  const API_URL = "../json/products.json";
+
+  fetch(API_URL)
+  .then((res)=>{
+  if(!res.ok) throw new Error("Failed to fetch products");
+  return res.json();
+  })
+  .then((data) => {
+    const container = document.querySelector(".product-list");
+
+    data.products.forEach((products)=>{
+      const card = document.createElement("div");
+      card.className="product-card";
+
+      card.innerHTML=`
+      <img src="../images/${products.image}" alt="${products.name}">
+      <h4>${products.name}</h4>
+      <p class ="price">₹ ${products.price}</p>
+      <button class="show-btn">Show</button>
+     `;
+      container.appendChild(card);
+    });
+  })
+  .catch((err) => {
+    console.error("Error loading products:",err);
+  });
+});

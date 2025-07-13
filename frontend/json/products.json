@@ -1,0 +1,39 @@
+{
+"products":[
+  {
+    "name": "Blazer",
+    "image": "blazer.png",
+    "price": 2999
+  },
+  {
+    "name": "Blue Chair",
+    "image": "bluechair.png",
+    "price": 1999
+  },
+  {
+    "name": "MacBook",
+    "image": "macbook.png",
+    "price": 99999
+  },
+  {
+    "name": "Power Bank",
+    "image": "powerbank.png",
+    "price": 1999
+  },
+  {
+    "name": "Rolex Watch",
+    "image": "rolexwatch.png",
+    "price": 120000
+  },
+  {
+    "name": "Sports Shoes",
+    "image": "shoes.png",
+    "price": 2499
+  },
+  {
+    "name": "Sunglasses",
+    "image": "sunglasses.png",
+    "price": 899
+  }
+]
+}

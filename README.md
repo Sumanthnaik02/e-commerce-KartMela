@@ -22,6 +22,52 @@ http://localhost:8080/api
 
 ---
 
+### GET Newest Products
+- **Endpoint:** `GET /api/products/newest`  
+- **Used In:** `index.html`  
+- **Response:**
+
+```json
+[
+  {
+    "name": "Blazer",
+    "image": "/frontend/images/blazer.png",
+    "price": 2999
+  },
+  {
+    "name": "Blue Chair",
+    "image": "/frontend/images/bluechair.png",
+    "price": 1999
+  },
+  {
+    "name": "MacBook",
+    "image": "/frontend/images/macbook.png",
+    "price": 99999
+  },
+  {
+    "name": "Power Bank",
+    "image": "/frontend/images/powerbank.png",
+    "price": 1999
+  },
+  {
+    "name": "Rolex Watch",
+    "image": "/frontend/images/rolexwatch.png",
+    "price": 120000
+  },
+  {
+    "name": "Sports Shoes",
+    "image": "/frontend/images/shoes.png",
+    "price": 2499
+  },
+  {
+    "name": "Sunglasses",
+    "image": "/frontend/images/sunglasses.png",
+    "price": 899
+  }
+]
+
+```
+
 ### 🛍️ GET All Products
 
 - **Endpoint:** `GET /api/products`  
@@ -39,45 +85,55 @@ http://localhost:8080/api
   }
 ]
 
-🔐 POST Signup
-Endpoint: POST /api/signup
+```
 
-Used In: login.js
+### 🔐 POST Signup
+- **Endpoint:** `POST /api/signup`
 
-Request:
+- **Used In:** `login.js`
+
+- **Request:**
+```json
 {
   "username": "sumanth",
   "password": "123456"
 }
+```
 
-Response:
+- **Response:**
+```json
 {
   "message": "Signup successful"
 }
+```
 
-🔐 POST Login
-Endpoint: POST /api/login
-Used In: login.js
+### 🔐 POST Login
+- **Endpoint:** `POST /api/login`
+- **Used In:** `login.js`
 
-Request:
+- **Request:**
+```json
 {
   "username": "sumanth",
   "password": "123456"
 }
-
-Response:
+```
+- **Response:**
+```json
 {
   "token": "eyJhbGciOiJIUzI1NiIsInR5..."
 }
+```
 
-🧾 POST Checkout
-Endpoint: POST /api/checkout
+### 🧾 POST Checkout
+- **Endpoint:** `POST /api/checkout`
 
-Used In: checkout.js
+- **Used In:** `checkout.js`
 
-Headers: Authorization: Bearer <token>
+- **Headers:** `Authorization: Bearer <token>`
 
-Request:
+- **Request:**
+```json
 {
   "items": [
     { "productId": 1, "quantity": 2 },
@@ -85,20 +141,23 @@ Request:
   ],
   "shippingAddress": "123, Bangalore"
 }
-Response:
+```
+- **Response:**
+```json
 {
   "message": "Order placed successfully"
 }
+```
 
+### 📦 GET Orders
+- **Endpoint:** `GET /api/orders`
 
-📦 GET Orders
-Endpoint: GET /api/orders
+- **Used In:** `orders.js`
 
-Used In: orders.js
+- **Headers:** `Authorization: Bearer <token>`
 
-Headers: Authorization: Bearer <token>
-
-Response:
+- **Response:**
+```json
 [
   {
     "orderId": 101,
@@ -109,4 +168,4 @@ Response:
     "total": 2999
   }
 ]
-
+```
