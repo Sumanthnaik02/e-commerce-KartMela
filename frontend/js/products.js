@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
   .then((data) => {
     const container = document.querySelector(".product-list");
 
-    data.products.forEach((products)=>{
+
+    //function to create product card
+   const createProductCard= (products)=>{
       const card = document.createElement("div");
       card.className="product-card";
 
@@ -21,8 +23,16 @@ document.addEventListener("DOMContentLoaded", ()=>{
       <p class ="price">₹ ${products.price}</p>
       <button class="show-btn">Show</button>
      `;
-      container.appendChild(card);
-    });
+    return card;
+  };
+
+  data.products.forEach((products)=>{
+    container.appendChild(createProductCard(products));
+  });
+  //duplicate
+  data.products.forEach((products)=>{
+    container.appendChild(creatProductCard(products));
+  });
   })
   .catch((err) => {
     console.error("Error loading products:",err);
