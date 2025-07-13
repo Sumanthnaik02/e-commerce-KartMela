@@ -35,5 +35,35 @@
     "image": "sunglasses.png",
     "price": 899
   }
+],
+"All Products": [
+  {
+    "id": 7,
+    "name": "Sunglasses",
+    "description": "UV-protected stylish sunglasses",
+    "price": 899,
+    "imageUrl": "/img/sunglasses.png"
+  },
+  {
+    "id": 8,
+    "name": "Apple MacBook Pro",
+    "description": "16-inch, M1 Pro, 16GB RAM, 512GB SSD",
+    "price": 2399.99,
+    "imageUrl": "/img/macbook.png"
+  },
+  {
+    "id": 9,
+    "name": "Sony Lens 50mm",
+    "description": "Full-frame lens for Sony Alpha cameras",
+    "price": 499.99,
+    "imageUrl": "/img/sony-lens.png"
+  },
+  {
+    "id": 10,
+    "name": "Xiaomi Power Bank",
+    "description": "20,000mAh fast-charging USB-C power bank",
+    "price": 29.99,
+    "imageUrl": "/img/xiaomi-powerbank.png"
+  }
 ]
 }
