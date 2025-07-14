@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b408aeb-8709-44fe-a947-9984eada3f01" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/html/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/html/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/json/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/ecommerce/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/ecommerce/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/ecommerce/service/Productservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/ecommerce/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
