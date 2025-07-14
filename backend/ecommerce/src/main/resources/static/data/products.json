@@ -68,19 +68,25 @@
     ],
     "poster": [
         {
-            "image": "/images/poster/womens-poster.png"
+            "image": "womens-poster.png"
         },
         {
-            "image": "/images/poster/mens-poster.png"
+            "image": "mens-poster.png"
         },
         {
-            "image": "/images/poster/kids-poster.png"
+            "image": "kids-poster.png"
         },
         {
-            "image": "/images/poster/watch-poster.png"
+            "image": "watch-poster.png"
         },
         {
-            "image": "/images/poster/sports-poster.png"
+            "image": "sports-poster.png"
+        },
+        {
+            "image": "beauty-poster.png"
+        },
+        {
+            "image": "brand-poster.png"
         }
     ]
 }
