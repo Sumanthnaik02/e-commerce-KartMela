@@ -17,6 +17,9 @@ public class Product{
         this.isNew = isNew;
     }
 
+    public Product(){
+
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
