@@ -24,7 +24,7 @@ public class PosterController {
         return posterService.savePoster(poster);
     }
 
-    @DeleteMapping("{/id}")
+    @DeleteMapping("/{id}")
     public void deletePoster(@PathVariable Long id){
       posterService.deletePoster(id);
     }
