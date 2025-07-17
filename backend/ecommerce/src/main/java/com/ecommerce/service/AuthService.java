@@ -27,7 +27,7 @@ public class AuthService {
      * @return success or failure msg
      */
 
-    private String register(User user) {
+    public String register(User user) {
         if (userRepo.existsByEmail(user.getEmail())) {
             return "Email already registered..!";
         }
