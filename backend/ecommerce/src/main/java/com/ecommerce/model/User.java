@@ -1,30 +1,20 @@
 package com.ecommerce.model;
 
 import jakarta.persistence.*;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.UserDetails;
-
-import java.util.Collection;
-import java.util.Collections;
-
-import org.springframework.security.core.GrantedAuthority;
-
-
-
 
 @Entity
 @Table(name = "users")
-public class User implements UserDetails {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false,unique = true)
+    @Column(nullable = false, unique = true)
     private String email;
 
     private String username;
     private String password;
-    private String role;
+    private String role ="USER";
 
     public User(Long id, String email, String username, String password, String role) {
         this.id = id;
@@ -33,8 +23,7 @@ public class User implements UserDetails {
         this.password = password;
         this.role = role;
     }
-
-    public User() {
+    public User(){
 
     }
 
@@ -76,11 +65,5 @@ public class User implements UserDetails {
 
     public void setRole(String role) {
         this.role = role;
-    }
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        // return roles/authorities here. You can improve this later.
-        return Collections.emptyList();
     }
 }

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b408aeb-8709-44fe-a947-9984eada3f01" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/security/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/security/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/security/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/security/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/service/AuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.EcommerceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven. [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.ecommerce [clean,install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.ecommerce [spring-boot:run].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -58,8 +67,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean install" />
       <command value="mvn spring-boot:run" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
