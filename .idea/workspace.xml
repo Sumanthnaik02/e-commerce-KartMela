@@ -33,6 +33,7 @@
   "keyToString": {
     "Application.EcommerceApplication.executor": "Run",
     "Maven. [clean,install].executor": "Run",
+    "Maven.ecommerce [clean,install,-U].executor": "Run",
     "Maven.ecommerce [clean,install].executor": "Run",
     "Maven.ecommerce [spring-boot:run].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,6 +60,7 @@
     <option name="myCommands">
       <command value="mvn spring-boot:run" />
       <command value="mvn clean install" />
+      <command value="mvn clean install -U" />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
