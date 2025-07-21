@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b408aeb-8709-44fe-a947-9984eada3f01" name="Changes" comment="">
+    <list default="true" id="3b408aeb-8709-44fe-a947-9984eada3f01" name="Changes" comment="added dependency">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sumanthnaik02&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sumanthnaik02/e-commerce-KartMela.git&quot;,
+    &quot;accountId&quot;: &quot;2e1a5187-7a00-4d5e-bbdf-5d13ee31c619&quot;
+  }
+}</component>
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
   </component>
@@ -44,6 +58,7 @@
     "Maven.ecommerce [clean,install].executor": "Run",
     "Maven.ecommerce [install,--non-recursive].executor": "Run",
     "Maven.ecommerce [install].executor": "Run",
+    "Maven.ecommerce [spring-boot:run,-X].executor": "Run",
     "Maven.ecommerce [spring-boot:run].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -51,7 +66,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/my/IdeaProjects/e-commerce-kartMela",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings"
@@ -69,6 +84,7 @@
     <option name="myCommands">
       <command value="mvn clean install" />
       <command value="mvn clean install -U" />
+      <command value="mvn spring-boot:run -X" />
       <command value="mvn spring-boot:run" />
     </option>
   </component>
@@ -81,6 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1752429742730</updated>
     </task>
+    <task id="LOCAL-00001" summary="added dependency">
+      <option name="closed" value="true" />
+      <created>1752835609778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752835609778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dependency" />
   </component>
 </project>
