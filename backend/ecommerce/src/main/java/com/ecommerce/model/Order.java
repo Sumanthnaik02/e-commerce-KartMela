@@ -4,26 +4,35 @@ import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 
 @Entity
 @Table(name = "orders")
 public class Order {
+
     @Id//primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY)//auto increment
     private Long id ;
 
+
     private LocalDateTime orderDate;
+
 
     private Double totalAmount;
 
     private String deliveryAddress;
+
     private String contactNumber;
+
     private String paymentMethod;
+
 
     @ManyToOne//one user can have multiple orders
     @JoinColumn(name = "user_id")
     private User user;
 
+    @JsonManagedReference
     @OneToMany(mappedBy= "order",cascade = CascadeType.ALL)//one order can have multiple order items
     private List<OrderItem> items;
 
