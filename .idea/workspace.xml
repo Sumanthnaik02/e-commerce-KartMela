@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b408aeb-8709-44fe-a947-9984eada3f01" name="Changes" comment="added dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/model/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/ecommerce/src/main/java/com/ecommerce/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +37,6 @@
     &quot;accountId&quot;: &quot;2e1a5187-7a00-4d5e-bbdf-5d13ee31c619&quot;
   }
 }</component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="MavenRunConfiguration" name="EcommerceApplication" />
-    </enabled-run-configurations>
-  </component>
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
   </component>
@@ -55,31 +49,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EcommerceApplication.executor": "Run",
-    "JUnit.EcommerceApplicationTests.executor": "Run",
-    "Maven. [clean,install].executor": "Run",
-    "Maven.EcommerceApplication.executor": "Run",
-    "Maven.ecommerce [clean,install,--non-recursive].executor": "Run",
-    "Maven.ecommerce [clean,install,-U].executor": "Run",
-    "Maven.ecommerce [clean,install].executor": "Run",
-    "Maven.ecommerce [install,--non-recursive].executor": "Run",
-    "Maven.ecommerce [install].executor": "Run",
-    "Maven.ecommerce [spring-boot:run,-X].executor": "Run",
-    "Maven.ecommerce [spring-boot:run].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/suman/OneDrive/Documents/Desktop/Mywebsite/myproject/e-commerce-KartMela",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EcommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EcommerceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.EcommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [clean,install,--non-recursive].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [clean,install,-U].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [install,--non-recursive].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [spring-boot:run,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [spring-boot:run,-X].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ecommerce [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/suman/OneDrive/Documents/Desktop/Mywebsite/myproject/e-commerce-KartMela&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\suman\OneDrive\Documents\Desktop\Mywebsite\myproject\e-commerce-KartMela\backend\ecommerce\src\main\resources\static\json" />
@@ -91,9 +86,10 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install -U" />
-      <command value="mvn spring-boot:run" />
-      <command value="mvn clean install" />
+      <command value="mvn spring-boot:run -DskipTests" />
       <command value="mvn spring-boot:run -X" />
+      <command value="mvn clean install" />
+      <command value="mvn spring-boot:run" />
     </option>
   </component>
   <component name="RunManager">
@@ -102,7 +98,7 @@
       <module name="ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecommerce.*" />
+          <option name="PATTERN" value="com.ecommerce.dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
